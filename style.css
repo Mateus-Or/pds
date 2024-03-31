@@ -1,11 +1,14 @@
 #cabecalho{
+    background-color: white;
     padding: 5px;
-    border: 2px solid black;
+    border-bottom: 2px solid rgb(196, 194, 194);
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-
+body{
+    background-color: rgb(241, 241, 240);
+}
 #logomarca{
     width: 100px;
 }
@@ -14,41 +17,58 @@
     margin: 20px;
     text-decoration: none;
 }
-#itens{
+p.title{
+    margin: 10px 10px 10px 0px;
+    margin-left: 15%;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.itens {
+    margin: 20px;
+    overflow-x: auto;
     display: flex;
     justify-content: space-around;
-}
-.item{
-    text-align: center;
-    border: 3px solid rgb(133, 133, 133);
-    border-radius: 5px; 
-    width: 250px;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha quando não couberem mais na tela */
 }
 
-.pcs{
-    width: 200px;
+.item {
+    flex: 0 0 calc(25% - 20px); /* Define a largura de cada item para ocupar cerca de 1/3 da largura da tela, considerando a margem */
+    margin-bottom: 20px;
+    background-color: white;
+    text-align: center;
+    border: 3px solid rgb(133, 133, 133);
+    border-radius: 5px;
+}
+
+
+img{
+    width: 100px;
+    height: 100px;
 }
 a:link {
+    border-radius: 5px;
     color:#000000;
     text-decoration:none;
 }
   a:visited {
-    color:#4b4b4b;
+    color: black;
     text-decoration:none;
 }
   a:hover {
-    color:#000000;
-    text-decoration:underline;
+    background-color: #f0efef;
+    text-decoration:none;
 }
   a:active {
-    color:#a3a3a3;
-    text-decoration:underline;
-}
-.formulario{
-    font-size: 20px;
-    margin-left: 43%;
+    color:black;
+    background-color: #e7e4e4;
 }
 input{
     border: 2px black solid;
     border-radius: 5px;
+}
+
+/*Pagina de Contato*/
+.formulario{
+    font-size: 20px;
+    margin-left: 43%;
 }
