@@ -32,7 +32,7 @@ p.title{
 }
 
 .item {
-    flex: 0 0 calc(25% - 20px); /* Define a largura de cada item para ocupar cerca de 1/3 da largura da tela, considerando a margem */
+    flex: 0 0 calc(20% - 20px); /* Define a largura de cada item para ocupar cerca de 1/3 da largura da tela, considerando a margem */
     margin-bottom: 20px;
     background-color: white;
     text-align: center;
@@ -70,6 +70,6 @@ input{
 /*Pagina de Contato*/
 
 .formulario{
-    align-items: center;
+    margin-left: 43%;
     font-size: 20px;
 }
