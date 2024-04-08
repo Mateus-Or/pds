@@ -13,6 +13,14 @@ body{
     width: 100px;
     height: 100px;
 }
+.slogan{
+    border-bottom: 2px solid rgb(196, 194, 194);
+    background-color: #fcfcfc;
+    padding: 10px 10px 10px 0px;
+    padding-left: 3%;
+    font-size: 15px;
+    font-weight: bolder;
+}
 .link{
     padding: 10px;
     border-radius: 5px;
